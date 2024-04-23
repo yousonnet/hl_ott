@@ -1,0 +1,17 @@
+{
+  "name": "hyperlnae_sybil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cosmjs/cosmwasm-stargate": "^0.32.3",
+    "logger": "^0.0.1",
+    "osmojs": "^16.12.1"
+  }
+}
