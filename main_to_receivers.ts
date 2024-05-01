@@ -21,8 +21,8 @@ const prefix = "inj";
 
 // const per_transfer_amount = 5;
 
-const limit = 10;
-const threshold = 9;
+const limit = 20;
+const threshold = 15;
 
 async function main() {
   const main_wallet_client = {

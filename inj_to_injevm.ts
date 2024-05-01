@@ -35,8 +35,9 @@ async function main() {
         "inj"
       )
     ).amount;
-    const rounded_bridge_number =
-      Number(Number(formatUnits(balance, 18)).toFixed(2)) - 0.01;
+    const rounded_bridge_number = Number(
+      (Number(Number(formatUnits(balance, 18)).toFixed(2)) - 0.01).toFixed(2)
+    );
     const evm_address_parameter = zeroPadValue(
       client.evm_client.address,
       32
